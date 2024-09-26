@@ -1,0 +1,31 @@
+.large-navbar {
+  background-color: #0047AB;
+  font-size: 1.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.navbar-dark-bg .navbar-nav {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar-dark-bg .dropdown-menu {
+  display: none;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.navbar-dark-bg .nav-link {
+  color: white !important;
+}
+
+.dropdown-item {
+  color: black;
+}
+
+.dropdown-item:hover {
+  background-color: #FFD700;
+}

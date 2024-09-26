@@ -1,0 +1,16 @@
+/* ==================== */
+/* FORMULARIO DE LOGIN */
+/* ==================== */
+.card {
+  border-radius: 12px; /* Bordes redondeados */
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #FFD700; /* Hover dorado */
+  border-color: #FFD700;
+}
+
+.card h2 {
+  color: #0047AB; /* Azul rey */
+}

@@ -1,0 +1,44 @@
+/* Asegura que el footer siempre esté en la parte inferior */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1; /* Esto asegura que el footer sea empujado hacia abajo si el contenido es corto */
+}
+
+footer {
+  background-color: #343a40; /* Fondo oscuro */
+  color: white; /* Texto blanco */
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer .container h5 {
+  margin-bottom: 15px;
+}
+
+footer ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer .bi {
+  margin-right: 8px;
+}

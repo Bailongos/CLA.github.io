@@ -1,0 +1,27 @@
+/* Estilos para el carrusel */
+.carousel {
+  margin-bottom: 2rem; /* Mantener espacio inferior */
+  margin-top: 20px; /* Espacio superior de aproximadamente 1 cm */
+  max-width: 900px; /* Establecer un ancho máximo */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-item img {
+  height: 50vh;
+  object-fit: cover;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #FFD700; /* Botones del carousel en dorado */
+  border-radius: 50%;
+}
+
+/* Ajuste de imágenes dentro del carrusel */
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto; /* Centra la imagen en el carrusel */
+  object-fit: cover; /* Ajusta la imagen para cubrir el área establecida manteniendo la proporción, recortando si es necesario */
+}
